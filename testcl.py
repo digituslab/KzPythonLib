@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from KzClient import KzClient
+from scripts.KzClient import KzClient
 
 class myClient(KzClient):
     def receiveEvt(self,d):

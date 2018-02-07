@@ -1,6 +1,6 @@
 from pdb import set_trace
-from KzServer import KzListener
-from KzServer import KzDefaultServer
+from scripts.KzServer import KzListener
+from scripts.KzServer import KzDefaultServer
 
 # Unique listener class (subclass of KzListener)
 class my_listener(KzListener):
